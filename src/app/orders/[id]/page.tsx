@@ -173,7 +173,7 @@ export default function OrderDetail() {
                         <span onClick={goToBack}>بازگشت به سفارش های من</span>
                     </div>
                 </div>
-                <div className="flex justify-stretch gap-20 w-full">
+                <div className="col-on-mobile flex justify-stretch gap-20 w-full">
                     <div className="flex-1">
                         <div className="flex flex-col gap-20">
                             <Button
@@ -188,7 +188,7 @@ export default function OrderDetail() {
                                        }}/>
                         </div>
                         <div
-                            className="detail-labels-contaienr flex left-0 w-full justify-end border-b-1 border-r-1 border-checkout-light-200">
+                            className="detail-labels-contaienr flex w-full justify-end border-b-1 border-r-1 border-checkout-light-200">
                             <div className="detail-labels">
                                 <div>هزینه ارسال</div>
                                 <div>جمع تخفیف</div>
