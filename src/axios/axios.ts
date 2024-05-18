@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const _axios = axios.create({
-    // baseURL: process.env.NEXT_PUBLIC_MOCK_URL,
-    baseURL: "http://localhost:3001/",
+    baseURL: process.env.NEXT_PUBLIC_MOCK_URL,
     withCredentials: false,
     headers: {
         'Content-Type': 'application/json',
