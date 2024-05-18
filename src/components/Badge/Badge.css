@@ -1,0 +1,19 @@
+.badge {
+    width: max-content;
+    height: 32px;
+    padding: 8px;
+    border-radius: 32px;
+    line-height: 16px;
+}
+
+.badge-info {
+    @apply bg-secondary-100 text-checkout-primaryTransparet-main;
+}
+
+.badge-warning {
+    @apply bg-alert-100 text-alert-600;
+}
+
+.badge-danger {
+    @apply bg-primary-200 text-checkout-primary-main;
+}

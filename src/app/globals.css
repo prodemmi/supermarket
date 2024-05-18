@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/iranian-sans');
+@import "responsive.css";
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    }
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    margin: 10rem;
+}
+
+button {
+    outline: none !important;
+}
+
+@layer utilities {
+}

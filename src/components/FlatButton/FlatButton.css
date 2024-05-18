@@ -1,0 +1,16 @@
+.profile__flat__button {
+    @apply flex items-center gap-10 cursor-pointer;
+}
+
+.profile__flat__button--icon {
+    width: 24px;
+    height: 24px;
+}
+
+.profile__flat__button--label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26.43px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}

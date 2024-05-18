@@ -1,0 +1,17 @@
+.profile__button {
+    width: 300px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+
+    @apply text-center text-white cursor-pointer select-none;
+}
+
+.profile__button.outline {
+    width: max-content;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+
+    @apply border-1 border-checkout-primaryTransparet-main text-center text-checkout-primaryTransparet-main cursor-pointer select-none;
+}

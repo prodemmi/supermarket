@@ -1,0 +1,42 @@
+.data-table ::-webkit-scrollbar {
+    display: none;
+}
+
+.data-table > table {
+    border-radius: 5px;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    @apply border w-full table-auto;
+}
+
+.data-table tbody {
+    height: auto;
+    max-height: 60vh;
+    @apply block overflow-y-scroll w-full;
+}
+
+.data-table > table th {
+    padding: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.13px;
+    @apply text-black-900 text-center;
+}
+
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* even columns width , fix width of table too*/
+}
+
+.data-table > table td {
+    @apply text-center;
+}
+
+.table-order-date-cell {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+    @apply text-black-900;
+}

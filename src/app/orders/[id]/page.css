@@ -1,0 +1,111 @@
+
+.order-detail-header {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.74px;
+    text-align: right;
+    @apply text-checkout-dark-300;
+}
+
+.backto-orders-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    @apply flex items-center gap-8 text-checkout-primaryTransparet-main select-none cursor-pointer;
+}
+
+.price-cell {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    @apply flex items-center justify-center gap-2 text-checkout-primaryTransparet-main text-center;
+}
+
+.price-cell span:first-child {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price-cell span:last-child {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.quantity-cell {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    @apply text-gray-900;
+}
+
+.detail-labels {
+    min-width: 127px;
+    @apply flex flex-col border-l-1 border-checkout-light-200;
+}
+
+.detail-labels-contaienr {
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.detail-labels div {
+    height: 45px;
+    padding: 22px 12px 22px 12px;
+    @apply flex items-center gap-2 justify-end text-center;
+}
+
+.detail-labels div span:last-child {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    @apply text-gray-900;
+}
+
+.detail-labels div:last-child {
+    height: 52px;
+}
+
+.detail-blue-color {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    @apply text-checkout-primaryTransparet-main;
+}
+
+.data-table table td {
+    padding: 22px !important;
+}
+
+.data-table > table {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.data-table table th:first-child * {
+    @apply text-start;
+}
+
+.data-table table tr td:last-child .price-cell {
+    @apply !justify-end;
+}
+
+.data-table table th:last-child * {
+    @apply text-end;
+}
+
+.data-table table tr:last-child {
+    @apply border-b-0;
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.13px;
+    text-align: right;
+    @apply text-black-900 underline;
+}
